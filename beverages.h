@@ -28,3 +28,29 @@ class Sopi {
     public:
         void printDescription();
 };
+
+class Bajigur {
+    private:
+        int stock = 5;
+        int price = 30;
+        string description = "A traditional hot beverage native to the"
+        " Sundanese people of West Java, Indonesia. The drink is made"
+        " from coconut milk, Aren sugar, ginger, a little salt, and"
+        " sometimes pandan leaves or coffee.";
+
+    public:
+        void printDescription();
+};
+
+class WedangRonde {
+    private:
+        int stock = 5;
+        int price = 30;
+        string description = "A traditional hot dessert suitable for"
+        " cold nights or rainy days. It contains peanut-filled glutinous"
+        " rice balls soaked inside ginger and lemongrass juices mixed"
+        " with sugar.";
+
+    public:
+        void printDescription();
+};

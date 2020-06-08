@@ -9,3 +9,11 @@ void SunsetPapua::printDescription() {
 void Sopi::printDescription() {
     cout << description << endl;
 }
+
+void Bajigur::printDescription() {
+    cout << description << endl;
+}
+
+void WedangRonde::printDescription() {
+    cout << description << endl;
+}
