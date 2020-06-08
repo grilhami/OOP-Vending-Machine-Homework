@@ -6,6 +6,7 @@ using namespace std;
 class SunsetPapua {
     private:
         int stock = 5;
+        int *ptrStock = &stock;
         int price = 60;
         string description = "The name of this unique drink is a"
         " blend of orange juice at the bottom and carrot juice at"
@@ -19,6 +20,7 @@ class SunsetPapua {
 class Sopi {
     private:
         int stock = 5;
+        int *ptrStock = &stock;
         int price = 80;
         string description = "One of the traditional types of alcoholic"
         " drinks, from East Nusa Tenggara, which is the result of"
@@ -32,6 +34,7 @@ class Sopi {
 class Bajigur {
     private:
         int stock = 5;
+        int *ptrStock = &stock;
         int price = 30;
         string description = "A traditional hot beverage native to the"
         " Sundanese people of West Java, Indonesia. The drink is made"
@@ -45,6 +48,7 @@ class Bajigur {
 class WedangRonde {
     private:
         int stock = 5;
+        int *ptrStock = &stock;
         int price = 30;
         string description = "A traditional hot dessert suitable for"
         " cold nights or rainy days. It contains peanut-filled glutinous"
