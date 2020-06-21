@@ -75,3 +75,17 @@ bool VendingMachine::validCoinType(int input) {
     }
 
 }
+
+bool VendingMachine::amountLargerOrEqualThanCheapest() {
+
+    if (coinAmount >= 30) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+bool VendingMachine::amountLargerOrEqualThanCurrentChoice() {
+
+    
+}
